@@ -1,89 +1,89 @@
 #page_landing {
-    width: 100vw;
-    height: 100vh;
-    background: url('../../images/bg.jpg') center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background: url("../../images/bg.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #page_landing .content-wrapper {
-    position: relative;
+  position: relative;
 
-    width: 100%;
-    max-width: 1400px;
+  width: 100%;
+  max-width: 1400px;
 
-    height: 100%;
-    max-height: 800px;
+  height: 100%;
+  max-height: 800px;
 
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-wrapper img {
-    width: 500px;
+  width: 500px;
 }
 
 .content-wrapper main {
-    max-width: 350px;
+  max-width: 350px;
 }
 
-.content-wrapper main h1 {  
-    font-family: 'Saira Stencil One', Nunito;  
-    font-size: 76px;
-    font-weight: 900;
-    line-height: 70px;
+.content-wrapper main h1 {
+  font-family: "Saira Stencil One", Nunito;
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
 }
 
 .content-wrapper main span {
-    font-family: 'Saira Stencil One', Nunito; 
-    margin-top: 25px;
-    font-size: 42px;
-    line-height: 60px;
+  font-family: "Saira Stencil One", Nunito;
+  margin-top: 25px;
+  font-size: 42px;
+  line-height: 60px;
 }
 
 .content-wrapper .location {
-    position: absolute;
-    right: 0;
-    top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 
-    font-size: 24px;
-    line-height: 34px;
+  font-size: 24px;
+  line-height: 34px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    text-align: right;
+  text-align: right;
 }
 
 .content-wrapper .location strong {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .content-wrapper .enter-app {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
-    width: 80px;
-    height: 80px;
-    background: #ffd666;
-    border-radius: 30px;
+  width: 80px;
+  height: 80px;
+  background: #ffd666;
+  border-radius: 30px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
 
 .content-wrapper .enter-app:hover {
-    background: #16e053;
+  background: #16e053;
 }
